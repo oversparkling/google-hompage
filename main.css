@@ -1,0 +1,66 @@
+* {
+    font-size: 18px;
+    
+}
+.flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-white);
+}
+
+.nav {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    
+.leftalign {
+    float: left;
+}
+    
+.rightalign {
+    float: right;
+}
+    
+.profile{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: relative;
+    background-image: url("../Downloads/misc-challenge-6.JPG");
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+li {
+    display: inline;
+    font-family: arial, sans-serif;
+    font-size: 14px; 
+    margin: 5px;
+    vertical-align: middle;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a {
+    color: rgb(68, 68, 70);
+    text-decoration: none; 
+    padding-right: 5px;
+  }
+
+li a:hover {
+     text-decoration: underline;
+  }
