@@ -28,7 +28,10 @@ body {
     float: right;
 }
     
-.profile{
+.centre{
+    margin: auto
+}
+/* .profile{
     height: 32px;
     width: 32px;
     border-radius: 50%;
@@ -41,7 +44,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
-}
+} */
 
 li {
     display: inline;
