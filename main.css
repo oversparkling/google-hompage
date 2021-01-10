@@ -73,7 +73,15 @@ li a:hover {
   }
 
 
-  
+.languages{
+    text-decoration: none; 
+    padding-right: 5px;
+}
+
+.languages a:hover{
+    text-decoration: underline;
+}
+
   .magbutton {
       width: 20px;
       height: 20px;
