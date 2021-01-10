@@ -1,5 +1,5 @@
 * {
-    font-size: 18px;
+    font-size: 14px;
     
 }
 .flex {
@@ -46,6 +46,10 @@ body {
     border-radius: 50%;
 } */
 
+.google{
+    margin-top: 58px;
+}
+
 li {
     display: inline;
     font-family: arial, sans-serif;
@@ -66,4 +70,58 @@ li a {
 
 li a:hover {
      text-decoration: underline;
+  }
+
+
+  
+  .magbutton {
+      width: 20px;
+      height: 20px;
+      display: block;
+      margin: right;
+      transform: translate(70%,-180%);
+      border: none;
+      background: transparent;
+      background-image: url(https://img.icons8.com/android/24/000000/search.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      cursor: pointer;
+  }
+
+  .textinput{
+ 
+    padding: 5px 8px 0px 16px;
+    padding-left: 14px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin:  auto;
+    width: 582px;
+
+  }
+
+  form{
+      margin-top: 30px;
+      margin: auto;
+  }
+
+  .searchbutton{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
   }
